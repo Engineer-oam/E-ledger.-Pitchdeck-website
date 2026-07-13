@@ -15,8 +15,8 @@ export default function App() {
     <main className="bg-slate-50 text-slate-900 min-h-screen selection:bg-brand-indigo/20">
       <Hero />
       <Story />
-      <Solution />
       <Market />
+      <Solution />
       <Company />
       <Footer />
     </main>

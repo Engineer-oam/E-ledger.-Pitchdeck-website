@@ -8,9 +8,8 @@ export function Footer() {
         </div>
         
         <div className="flex gap-6 text-sm text-slate-600">
-          <a href="#" className="hover:text-slate-900 transition-colors">LinkedIn</a>
-          <a href="#" className="hover:text-slate-900 transition-colors">Email</a>
-          <a href="#" className="hover:text-slate-900 transition-colors">GitHub</a>
+          <a href="https://www.linkedin.com/company/synthrova/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-900 transition-colors">LinkedIn</a>
+          <a href="mailto:info.synthrova@gmail.com" className="hover:text-slate-900 transition-colors">Email</a>
         </div>
         
         <div className="text-sm text-slate-500">

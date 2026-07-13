@@ -28,15 +28,15 @@ export function Hero() {
             Compliance infrastructure enabling trusted data sharing, audit-ready operations, and interoperability across organizations—without replacing existing ERP systems.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center gap-4">
-            <button className="flex items-center gap-2 bg-brand-indigo hover:bg-indigo-700 text-white px-8 py-4 rounded-full font-medium transition-colors shadow-sm">
+          <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto justify-center">
+            <button className="flex items-center justify-center gap-2 bg-brand-indigo hover:bg-indigo-700 text-white px-8 py-4 rounded-full font-medium transition-colors shadow-sm w-full sm:w-auto">
               Explore E-Ledger
               <ArrowRight className="w-4 h-4" />
             </button>
-            <button className="flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-900 border border-slate-200 px-8 py-4 rounded-full font-medium transition-colors shadow-sm">
+            <a href="https://e-ledger-proto.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-slate-900 border border-slate-200 px-8 py-4 rounded-full font-medium transition-colors shadow-sm w-full sm:w-auto">
               <Play className="w-4 h-4" />
               View Prototype
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>

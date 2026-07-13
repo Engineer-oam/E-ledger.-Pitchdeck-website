@@ -146,16 +146,16 @@ export function Company() {
             We're looking for investors who believe infrastructure is built through <span className="text-slate-900 font-bold">conviction rather than speed.</span>
           </p>
 
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-brand-indigo hover:bg-indigo-700 text-white px-8 py-4 rounded-full font-medium transition-colors shadow-sm">
-              Book a Demo
-            </button>
-            <button className="bg-white hover:bg-slate-50 text-slate-900 border border-slate-200 px-8 py-4 rounded-full font-medium transition-colors shadow-sm">
+          <div className="flex flex-col sm:flex-row justify-center gap-4 w-full sm:w-auto">
+            <a href="https://youtu.be/JdO5jlj82nQ?si=x7XAVq5qMgsAbnAx" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center bg-brand-indigo hover:bg-indigo-700 text-white px-8 py-4 rounded-full font-medium transition-colors shadow-sm w-full sm:w-auto">
+              Demo
+            </a>
+            <a href="https://e-ledger-proto.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center bg-white hover:bg-slate-50 text-slate-900 border border-slate-200 px-8 py-4 rounded-full font-medium transition-colors shadow-sm w-full sm:w-auto">
               View Prototype
-            </button>
-            <button className="bg-transparent hover:bg-white text-slate-700 px-8 py-4 rounded-full font-medium transition-colors">
+            </a>
+            <a href="mailto:info.synthrova@gmail.com" className="flex items-center justify-center bg-transparent hover:bg-white text-slate-700 px-8 py-4 rounded-full font-medium transition-colors w-full sm:w-auto">
               Contact
-            </button>
+            </a>
           </div>
         </div>
       </section>
